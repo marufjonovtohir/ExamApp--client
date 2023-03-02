@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+}
+body{
+    position: relative;
+}
+.container{
+    max-width: 1240px;
+    padding: 0 40;
+    margin: 0 auto;
+}
+.header-content{
+    padding: 15px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+} 
+.logo-link{
+
+}
+.logo-img{
+    display: block;
+    width: 120px;
+}
+.navbar{
+    display: flex;
+}
+.nav-link{
+    color: black;
+    font-size: 20px;
+    margin-left: 30px;
+    transition: 0.3s ease;
+    display: block;
+}
+.nav-link:hover{
+    transform: scale(1.2);
+}
+
+.main-content{
+
+}
+.user-list{
+display: flex;
+align-items: center;
+flex-wrap: wrap;
+margin: 15px -15px;
+}
+.user{
+    border-radius: 10px;
+    margin: 30px 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 0 5px 5px rgb(212, 212, 212);
+    gap: 20px;
+}
+.user-img{
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+}
+.user-name{
+
+}
+.email-link{
+
+}
+.user-gender{
+
+}
+.user div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.del-btn{
+    background-color: red;
+    color: aliceblue;
+    padding: 7px 14px;
+    border-radius: 5px;
+    border: none;
+    margin-left: 7px;
+    cursor: pointer;
+}
+.admin-form {
+max-width: 400px;
+padding: 30px;
+margin: 0 auto;
+display: flex;
+flex-direction: column;
+gap: 30px;
+align-items: center;
+box-shadow: 0 0 5px 5px rgb(198, 195, 195);
+border-radius: 10px;
+}
+.admin-input {
+    width: 90%;
+    padding: 10px;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    box-shadow: 0 0 5px 5px rgb(198, 195, 195);
+    border-radius: 6px;
+}
+.admin-form div{
+display: flex;
+justify-content: space-between;
+}
+.admin-form div input{
+    box-shadow: none;
+}
+.admin-form div label{
+    display: flex;
+    gap: 10px;
+    margin: 0 20px; 
+}
+#file-input{
+    display: none;
+}
+.file-label{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+.admin-btn{
+width: 90%;
+padding: 10px 0;
+background-color: greenyellow;
+color: aliceblue;
+border-radius: 5px;
+border: none;
+transition: 0.3s ease;
+}
+.admin-btn:hover{
+    background-color: rgb(108, 176, 8);
+}
+
+.state-heading{
+position: absolute;
+color: red;
+left: 40px;
+top: 100px;
+}
+.state2{
+position: absolute;
+color: red;
+left: 40px;
+top: 140px;
+}

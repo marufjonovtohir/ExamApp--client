@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Exam App</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <a href="./index.html" class="logo-link">
+                    <img src="./images/logo-ipsum3.png" alt="logo" class="logo-img">
+                </a>
+                <h1>Admin Page</h1>
+                <nav class="navbar">
+                    <a href="./index.html" class="nav-link">Home</a>
+                    <a href="./admin.html" class="nav-link">Admin</a>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            <div class="main-content">
+                <h2 class="state-heading"></h2> <span class="state2"></span>
+                <form  class="admin-form">
+                    <input type="text" name="firstname" class="admin-input" placeholder="Enter your firstname" required>
+                    <input type="text" name="lastname" class="admin-input" placeholder="Enter your lastname" required>
+                    <input type="email" name="email" class="admin-input" placeholder="Enter your email" required>
+                    <h3>Select your gender</h3>
+                    <div >
+                        <label for="male">
+                            MALE
+                            <input id="male" type="radio" name="gender" value="male" class="admin-input" required>
+                        </label>
+                        <label for="female">
+                            FEMALE
+                            <input id="female" type="radio" name="gender"value="female" class="admin-input" required>
+                        </label>
+                    </div>
+                    <label class="file-label" for="file-input">
+                        <h3>Select your photo</h3>
+                        <img src="./images/file-icon.png" alt="icon" width="60">
+                        <input id="file-input" type="file" name="image" accept="img/*" class="admin-input" placeholder="Enter your img">
+                    </label>
+
+                    <button class="admin-btn">Add user</button>
+                </form>
+                <ul class="user-list">
+                    <!-- <li class="user">
+                        <img src="./images/hero-bg.png" alt="" class="user-img" width="160px">
+                        <h3 class="user-name">Lorem </h3>
+                        <a href="mail-to" class="email-link">ahcsh@gmail.com</a>
+                        <p class="user-gender">MALE</p>
+                    </li> -->
+                </ul>
+            </div>
+        </div>
+    </main>
+    
+
+    <script src="./admin.js"></script>
+</body>
+</html>
